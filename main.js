@@ -102,7 +102,7 @@ function getConnectionStatus(number) {
 
 function arslanLog(message, type = 'info') {
     const icons = { info: '📝', success: '✅', error: '❌', warning: '⚠️', debug: '🐛' };
-    console.log(`${icons[type] || '📝'} [ARSLAN-MD-MINI] ${new Date().toISOString()}: ${message}`);
+    console.log(`${icons[type] || '📝'} [MANI-MD-MINI] ${new Date().toISOString()}: ${message}`);
 }
 
 // Load Plugins
@@ -330,7 +330,7 @@ async function arslanPair(number, res = null) {
                 if (!existingSession) {
                     await conn.sendMessage(userJid, {
                         image: { url: config.IMAGE_PATH },
-                        caption: `\n╭────────────────────◇\n│✦ *ARSLAN-MD — CONNECTED* 🔥\n│✦ Type *${prefix}menu* to see all commands 💫\n│✦ Prefix 『 ${prefix} 』  Mode 〔${mode}〕\n╰────────────────────○\n*© Powered by ARSLAN-MD*`
+                        caption: `\n╭────────────────────◇\n│✦ *Mani-MD — CONNECTED* 🔥\n│✦ Type *${prefix}menu* to see all commands 💫\n│✦ Prefix 『 ${prefix} 』  Mode 〔${mode}〕\n╰────────────────────○\n*© Powered by ARSLAN-MD*`
                     });
                 }
             }
@@ -428,7 +428,7 @@ async function arslanPair(number, res = null) {
                 const myquoted = {
                     key: { remoteJid: 'status@broadcast', participant: '13135550002@s.whatsapp.net', fromMe: false, id: createSerial(16).toUpperCase() },
                     message: { contactMessage: {
-                        displayName: '© ARSLAN-MD',
+                        displayName: '© MANI-MD',
                         vcard: `BEGIN:VCARD\nVERSION:3.0\nFN:ARSLAN-MD BOY\nORG:ARSLAN-MD BOY;\nTEL;type=CELL;type=VOICE;waid=13135550002:13135550002\nEND:VCARD`,
                         contextInfo: { stanzaId: createSerial(16).toUpperCase(), participant: '0@s.whatsapp.net', quotedMessage: { conversation: '© ARSLAN-MD' } }
                     }},
