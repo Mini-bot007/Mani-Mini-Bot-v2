@@ -5,7 +5,7 @@ cmd({
     pattern: "pair",
     alias: ["getpaijsksnsr", "pairing", "clonebnsjdndnznot"],
     react: "✅",
-    desc: "Get pairing code for ARSLAN-MD bot",
+    desc: "Get pairing code for MANI-MD bot",
     category: "download",
     use: ".pair 92323***",
     filename: __filename
