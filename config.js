@@ -6,7 +6,7 @@
 // ██║  ██║██║  ██║███████║███████╗██║  ██║██║  ████║     ██║ ╚═╝ ██║██████╔╝
 // ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚══════╝╚═╝  ╚═╝╚═╝   ╚═══╝    ╚═╝     ╚═╝╚═════╝ 
 // ═══════════════════════════════════════════════════════════════════════════
-//                    ARSLAN MD - BOT CONFIGURATION
+//                    MANI MD - BOT CONFIGURATION
 // ═══════════════════════════════════════════════════════════════════════════
 
 const fs = require('fs');
@@ -56,23 +56,23 @@ module.exports = {
     /** 
      * @description Owner's WhatsApp number with country code
      * @type {string}
-     * @default "+923237045919"
+     * @default "+4915679412824"
      */
     OWNER_NUMBER: process.env.OWNER_NUMBER || '+4915679412824',
     
     /** 
      * @description Display name of the bot
      * @type {string}
-     * @default "Arslan MD Mini"
+     * @default "Mani MD Mini"
      */
     BOT_NAME: "Mani MD Mini",
     
     /** 
      * @description Footer text for bot messages
      * @type {string}
-     * @default "© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴀʀꜱʟᴀɴ-ᴍᴅ"
+     * @default "© ᴘᴏᴡᴇʀᴇᴅ ʙʏ MANI-MD"
      */
-    BOT_FOOTER: '© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴀʀꜱʟᴀɴ-ᴍᴅ',
+    BOT_FOOTER: '© ᴘᴏᴡᴇʀᴇᴅ ʙʏ MANI-MD',
     
     /** 
      * @description Bot work mode
@@ -199,7 +199,7 @@ module.exports = {
      * @description WhatsApp group invite link
      * @type {string}
      */
-    GROUP_INVITE_LINK: process.env.GROUP_INVITE_LINK || 'https://chat.whatsapp.com/Jpf5TU6nrwlFcQnW86bR7f?s=cl&p=a&mlu=4&amv=3',
+    GROUP_INVITE_LINK: process.env.GROUP_INVITE_LINK || 'https://chat.whatsapp.com/GmdWc3gy7VBJ7FUu1YJy0C',
 
     // ═══════════════════════════════════════════════════════════════════════
     //  🛡️ SECURITY & ANTI-CALL
@@ -233,7 +233,7 @@ module.exports = {
      * @description WhatsApp channel link for updates
      * @type {string}
      */
-    CHANNEL_LINK: 'https://whatsapp.com/channel/0029VarfjW04tRrmwfb8x306',
+    CHANNEL_LINK: 'https://whatsapp.com/channel/0029Vb60cZWI1rcauQ1lpn0Y',
 
     // ═══════════════════════════════════════════════════════════════════════
     //  📡 EXTERNAL API INTEGRATIONS
@@ -251,7 +251,7 @@ module.exports = {
      * @type {string}
      * @default "+923237045919"
      */
-    TELEGRAM_CHAT_ID: process.env.TELEGRAM_CHAT_ID || '+923237045919'
+    TELEGRAM_CHAT_ID: process.env.TELEGRAM_CHAT_ID || '+923317568033'
 
 };
 
