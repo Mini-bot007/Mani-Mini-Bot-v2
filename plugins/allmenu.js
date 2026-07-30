@@ -32,12 +32,12 @@ cmd({
         const date = moment().tz("Africa/Kampala").format("dddd, MMMM Do YYYY");
 
         const caption = `
-╭━━━《 *ᴀʀꜱʟᴀɴ-ᴍᴅ* 》━━━┈⊷
+╭━━━《 *MANI-MD* 》━━━┈⊷
 ┃ ✦╭─────────────┈⊷
 ┃ ✦│▸ Total Commands : *${totalCommands}*
 ┃ ✦│▸ Time           : ${time}
 ┃ ✦│▸ Date           : ${date}
-┃ ✦│▸ Platform       : arslanmd.xo.je
+┃ ✦│▸ Platform       : Manimd.xo.je
 ┃ ✦╰─────────────┈⊷
 ╰━━━━━━━━━━━━┈⊷
 ${menuText}
@@ -51,8 +51,8 @@ ${menuText}
                 isForwarded: true,
                 mentionedJid: [m.sender],
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: "120363348739987203@newsletter",
-                    newsletterName: "𝘼𝙧𝙨𝙡𝙖𝙣-𝙈𝘿 𝙈𝙞𝙣𝙞 𝙑²",
+                    newsletterJid: "120363420486385183@newsletter",
+                    newsletterName: "MANI-MD MINI V²",
                     serverMessageId: 2,
                 },
             },
