@@ -274,7 +274,7 @@ async (Void, citel) => {
         citel.reply("❌ Kickall failed!");
     }
 });
-//REMOVE ADMINS BY ARSLAN-MD OFFICIAL 
+//REMOVE ADMINS BY MANI-MD OFFICIAL 
 cmd({
     pattern: "removeadmins",
     alias: ["kickadmins", "kickall3", "deladmins"],
