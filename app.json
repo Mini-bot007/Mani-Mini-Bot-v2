@@ -1,9 +1,9 @@
 {
   "name": "♥️MANI MD PAIR♥️",
   "description": "SESSION ID GENERATOR FOR WHATSAPP BOTS",
-  "logo": "https://files.catbox.moe/prkkzj.png",
+  "logo": "https://h.uguu.se/PxNgqcvP.jpg",
   "repository": "https://github.com/ArslanMDofficial/Arslan-MD-Mini-V2",
-  "keywords": ["@Arslan-MD"],
+  "keywords": ["@MANI-MD"],
   "success_url": "/", 
   "buildpacks": [
     { "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" }
