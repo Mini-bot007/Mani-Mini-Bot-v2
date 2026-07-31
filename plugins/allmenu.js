@@ -44,7 +44,7 @@ ${menuText}
 `.trim();
 
         await conn.sendMessage(m.chat, {
-            image: { url: "https://files.catbox.moe/prkkzj.png" },
+            image: { url: "https://h.uguu.se/PxNgqcvP.jpg" },
             caption,
             contextInfo: {
                 forwardingScore: 999,
